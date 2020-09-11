@@ -35,7 +35,7 @@ Session7.py helps getting hands on concepts of Functional Parameters.
 
 ***
 
-test_session5.py consists of 26 test cases which needs to be cleared.
+test_session7.py consists of 18 test cases which needs to be cleared.
 
 - test_fourspace to check for indentation.
 - test_function_name_had_cap_letter function name having capital letter.
@@ -43,21 +43,15 @@ test_session5.py consists of 26 test cases which needs to be cleared.
 - test_readme_exists to check if the README file exists
 - test_readme_contents to check if the README content is exceding 400 words
 - test_readme_file_for_formatting() to check for proper formatting
-- test_lamda_manual_check to check if the deck of cards are created correct
-- test_create_cards_manual_check to check if the deck of cards are created correct
-- test_annotations_poker_check cheks for annotations of poker function
-- test_docstring_poker_check checks for docstrings of poker function
-- test_docstring_create_cards_check checks for docstrings of create cards function
-- test_random_tests_20_check checks if the program gives right winner among the 2 players for 20 random sets of cards
-- test_3_card_set checks if the program gives right result for sets of 3 cards 
-- test_4_card_set checks if the program gives right result for sets of 4 cards
-- test_5_card_set checks if the program gives right result for sets of 5 cards
-- test_royal_flush checks for Royal Flush
-- test_straight_flush checks for straight flush
-- test_four_of_a_kind checks for four of a kind
-- test_full_house checks for a full house
-- test_flush checks for flush
-- test_straight checks for straight
-- test_three_of_a_kind checks for three of a kind
-- test_two_pair checks for two pairs
-- test_one_pair checks for one pair
+- test_isfib() to check if the function isfib() is returning fibonacci number
+- test_add_even() to check if the function is giving sum of even and odd numbers in the given lists
+- test_remove_vowel() to check if the function is returing characters after remmoving vowels
+- test_relu() to check if the function is giving proper ReLU output for the given input
+- test_sigmoid() to check if the function is giving proper Sigmoid output for girvn input
+- test_char_shift() to check if the function is returning characters after shiting each by 5 characters
+- test_swear_words_check() to check if the function is checking for swear words
+- test_add_even() to check if the function is returning sum of all even nnumbers in the given input
+- test_big_char() to check if the function is returning the biggest character of the given characters
+- test_list_sum() to check if the function is returning the sum of every 3rd element
+- test_num_plate() to check if the numper plate generated is in proper format
+- test_num_plate_partial() to check if we are able to change the state code using partial functions
