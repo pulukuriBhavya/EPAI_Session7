@@ -74,7 +74,7 @@ def swear_words_check(input_paragraph):
 
         Output:True if it is a swear word else false
     '''
-    with open('C:/Users/sande/Documents/EPAI/session7/list.txt') as f:
+    with open('list.txt') as f:
         swear_word_list = [line.rstrip() for line in f]
     return [False if x not in swear_word_list else True for x in input_paragraph.split()]
 
